@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-distutils-extra
 BuildRequires: python-setuptools
+BuildRequires: intltool
 Url: https://launchpad.net/gnome-activity-journal
 Requires: zeitgeist >= 0.3.1
 Requires: gnome-python
@@ -26,7 +27,7 @@ your computer. It shows a chronological journal of all file activity and
 supports full-text search through Tracker.
 
 %prep
-%setup -n %{name}-%{unmangled_version}
+%setup -q -n %{name}-%{unmangled_version}
 
 %build
 python setup.py build
