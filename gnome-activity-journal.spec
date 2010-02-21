@@ -1,5 +1,5 @@
 %define name gnome-activity-journal
-%define version 0.3.2
+%define version 0.3.3
 %define unmangled_version 0.3.2
 %define release %mkrel 1
 
