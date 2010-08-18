@@ -55,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/%name
 %_datadir/icons/hicolor/*/*/*
 %_mandir/man1/%name.1*
-%_datadir/pixmaps/%name.svg
+%_datadir/pixmaps/%name.xpm
