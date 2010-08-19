@@ -1,13 +1,12 @@
 %define name gnome-activity-journal
 %define version 0.3.4.1
-%define unmangled_version 0.3.4.1
 %define release %mkrel 2
 
 Summary: GUI to browse and search your Zeitgeist activities
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://launchpad.net/%name/0.3/%version/+download/%{name}-%{unmangled_version}.tar.gz
+Source0: http://launchpad.net/%name/0.3/%version/+download/%{name}-%{version}.tar.gz
 License: GPLv3+
 Group: Graphical desktop/GNOME
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -27,7 +26,7 @@ your computer. It shows a chronological journal of all file activity and
 supports full-text search through Tracker.
 
 %prep
-%setup -q -n %{name}-%{unmangled_version}
+%setup -q -n %{name}-%{version}
 
 %build
 python setup.py build
