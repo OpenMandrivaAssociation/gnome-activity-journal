@@ -1,12 +1,12 @@
 %define name gnome-activity-journal
-%define version 0.5.0.1
-%define release %mkrel 2
+%define version 0.6.0
+%define release %mkrel 1
 
 Summary: GUI to browse and search your Zeitgeist activities
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://edge.launchpad.net/%name/0.5/%version/+download/%name-%version.tar.gz
+Source0: http://launchpad.net/%name/0.6/%version/+download/%name-%version.tar.gz
 License: GPLv3+
 Group: Graphical desktop/GNOME
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
