@@ -56,3 +56,51 @@ rm -rf $RPM_BUILD_ROOT
 %_mandir/man1/%name.1*
 %_datadir/pixmaps/%name.xpm
 %_datadir/zeitgeist/_zeitgeist/engine/extensions/gnome_activity_journal.py
+
+
+%changelog
+* Mon Jul 18 2011 Götz Waschk <waschk@mandriva.org> 0.8.0-1mdv2011
++ Revision: 690223
+- new version
+
+* Mon May 23 2011 Funda Wang <fwang@mandriva.org> 0.6.0-2
++ Revision: 677707
+- rebuild to add gconftool as req
+
+* Thu Jan 27 2011 Götz Waschk <waschk@mandriva.org> 0.6.0-1
++ Revision: 633485
+- new version
+- update URL
+
+* Wed Nov 03 2010 Götz Waschk <waschk@mandriva.org> 0.5.0.1-2mdv2011.0
++ Revision: 592937
+- rebuild for new python 2.7
+
+* Thu Sep 23 2010 Götz Waschk <waschk@mandriva.org> 0.5.0.1-1mdv2011.0
++ Revision: 580704
+- new version
+
+* Tue Aug 24 2010 Götz Waschk <waschk@mandriva.org> 0.5.0-1mdv2011.0
++ Revision: 572932
+- new version
+- update file list
+- update source URL
+
+  + Olivier Faurax <ofaurax@mandriva.org>
+    - bad extension for pixmaps (svg -> xpm)
+    - forcing new release
+    - Updated tar.gz to 0.3.4.1
+
+* Thu Aug 05 2010 Götz Waschk <waschk@mandriva.org> 0.3.4.1-1mdv2011.0
++ Revision: 566419
+- update to new version 0.3.4.1
+
+* Sun Feb 21 2010 Götz Waschk <waschk@mandriva.org> 0.3.3-1mdv2010.1
++ Revision: 509023
+- update to new version 0.3.3
+
+* Wed Jan 20 2010 Götz Waschk <waschk@mandriva.org> 0.3.2-1mdv2010.1
++ Revision: 493968
+- import gnome-activity-journal
+
+
