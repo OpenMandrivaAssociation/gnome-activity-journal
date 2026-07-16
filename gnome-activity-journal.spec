@@ -1,6 +1,6 @@
 %define name gnome-activity-journal
 %define version 0.8.0
-%define release %mkrel 1
+%define release 2
 
 Summary: GUI to browse and search your Zeitgeist activities
 Name: %{name}
